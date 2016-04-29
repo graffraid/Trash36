@@ -1,0 +1,14 @@
+Trash.Logger/bin/
+Trash.Logger/obj/
+Trash.MVC/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+Trash.MVC/bin/
+Trash.Repository/bin/
+Trash.Repository/obj/
+packages/
+Trash.MVC/obj/
+Trash.Infrastructure/obj/
+Trash.Domain/obj/
+Trash.Infrastructure/bin/
+Trash.Domain/bin/
+.vs/
+Trash.MVC.v12.suo
