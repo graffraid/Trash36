@@ -1,9 +1,6 @@
 namespace Trash.Domain
 {
-    using System;
     using System.Data.Entity;
-    using System.Linq;
-
     using Trash.Domain.Entities;
 
     public class TrashContext : DbContext
@@ -11,6 +8,7 @@ namespace Trash.Domain
         public TrashContext()
             : base("name=TrashConnectionString")
         {
+            System.Data.Entity.Database.SetInitializer(new DropCreateDatabaseAlways<TrashContext>());
         }
 
         public DbSet<Detail> Details { get; set; }

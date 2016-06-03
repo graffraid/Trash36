@@ -64,6 +64,8 @@
     <Compile Include="Entities\VehicleImage.cs" />
     <Compile Include="Entities\VehicleModel.cs" />
     <Compile Include="Initializer\Initializer.cs" />
+    <Compile Include="Initializer\Initializer.Param.cs" />
+    <Compile Include="Initializer\Initializer.Ty.cs" />
     <Compile Include="Migrations\201604281554201_Initial.cs" />
     <Compile Include="Migrations\201604281554201_Initial.Designer.cs">
       <DependentUpon>201604281554201_Initial.cs</DependentUpon>

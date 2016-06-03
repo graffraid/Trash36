@@ -11,7 +11,7 @@ namespace Trash.Domain.Migrations
 
         protected override void Seed(Trash.Domain.TrashContext context)
         {
-            Initializer.Seed(context);
+            Trash.Domain.Initializer.Initializer.Seed(context);
         }
     }
 }
