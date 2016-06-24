@@ -25,7 +25,7 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Adminka<span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Add New Car</a></li>
+                            <li><a href="@Url.Action("NewVehicle", "Home")">Add New Car</a></li>
                             <li><a href="#">Add New Part</a></li>
                             <li role="separator" class="divider"></li>
                             <li><a href="#">Redactor</a></li>
@@ -49,7 +49,9 @@
         @RenderBody()
         <hr/>
         <footer>
-            <p>&copy; @DateTime.Now.Year - Trash ASP.NET Application</p>
+            <div class="container">
+                <p>&copy; @DateTime.Now.Year - Trash ASP.NET Application</p>
+            </div>
         </footer>
     </div>
     <div class="container right-side col-sm-2">
