@@ -8,7 +8,8 @@ namespace Trash.Domain
         public TrashContext()
             : base("name=TrashConnectionString")
         {
-            System.Data.Entity.Database.SetInitializer(new DropCreateDatabaseAlways<TrashContext>());
+            Configuration.ProxyCreationEnabled = false;
+            Configuration.LazyLoadingEnabled = false;
         }
 
         public DbSet<Detail> Details { get; set; }
